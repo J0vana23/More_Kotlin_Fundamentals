@@ -9,6 +9,7 @@ data class Event(
     val duration: Int,
 )
 
+
 fun main() {
     val evento = Event(title="Study Kotlin", description="Commit to studying Kotlin at least 15 minutes per day.", daypart=Daypart.morning, duration=15)
     println("Title: "+evento.title)
