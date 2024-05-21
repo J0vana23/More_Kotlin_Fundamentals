@@ -16,6 +16,7 @@ val Event.durationOfEvent: String
         "long"
     }
 
+
 fun main() {
     val event1 = Event(title = "Wake up", description = "Time to get up", daypart = Daypart.MORNING, duration = 0)
     val event2 = Event(title = "Eat breakfast", daypart = Daypart.MORNING, duration = 15)
